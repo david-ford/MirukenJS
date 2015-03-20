@@ -8,12 +8,16 @@
     "grunt-cli": "latest",
     "grunt-env": "latest"
   },
+  "scripts": {
+    "test": "mocha --compilers js:babel/register"
+  },
   "devDependencies": {
+    "babel": "^4.7.16",
+    "grunt-concurrent": "latest",
     "grunt-contrib-jshint": "latest",
     "grunt-contrib-uglify": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-mocha-test": "latest",
-    "grunt-concurrent": "latest",
     "mocha": "^2.1.0",
     "prettyjson": "^1.0.0"
   }
