@@ -84,8 +84,7 @@ module.exports = function(grunt) {
                 paths:       ['./lib'],
                 ignorePaths: ['./lib/base2.js'],
                 outdir:       './docs/',
-                themedir:     './documentation/theme',
-                helpers:     ['./documentation/theme/helpers/helpers.js']
+                themedir:     './documentation/theme'
             }
         }
     }
